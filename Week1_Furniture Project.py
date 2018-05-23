@@ -16,14 +16,14 @@ luxurious_lamp_price = 52.15
 sales_tax = .088
 
 # First Customer
-customer_one_total = 0 # Starting Purchase
-customer_one_itemization = "" # Starting Itemization
-customer_one_total = lovely_loveseat_price # Love Seat Price
-customer_one_itemization = lovely_loveseat_description # Love Seat Item
-customer_one_total += luxurious_lamp_price # Luxurious Lamp Price
-customer_one_itemization += " " + luxurious_lamp_description # Luxurious Lamp Item
-customer_one_tax = customer_one_total * sales_tax # Total Tax Calculation
-customer_one_total += customer_one_tax # Ending Purchase
+customer_one_total = 0  # Starting Purchase
+customer_one_itemization = ""  # Starting Itemization
+customer_one_total = lovely_loveseat_price  # Love Seat Price
+customer_one_itemization = lovely_loveseat_description  # Love Seat Item
+customer_one_total += luxurious_lamp_price  # Luxurious Lamp Price
+customer_one_itemization += " " + luxurious_lamp_description  # Luxurious Lamp Item
+customer_one_tax = customer_one_total * sales_tax  # Total Tax Calculation
+customer_one_total += customer_one_tax  # Ending Purchase
 # First Customer Receipt
 print("Customer One Items:")
 print(customer_one_itemization)
@@ -31,14 +31,14 @@ print("Customer One Total:")
 print(customer_one_total)
 
 # Second Customer
-customer_two_total = 0 # Starting Purchase
-customer_two_itemization = "" # Starting Itemization
-customer_two_total = stylish_settee_price # Love Seat Price
-customer_two_itemization = stylish_settee_description # Love Seat Item
-customer_two_total += luxurious_lamp_price # Luxurious Lamp Price
-customer_two_itemization += " " + luxurious_lamp_description # Luxurious Lamp Item
-customer_two_tax = customer_two_total * sales_tax # Total Tax Calculation
-customer_two_total += customer_two_tax # Ending Purchase
+customer_two_total = 0  # Starting Purchase
+customer_two_itemization = ""  # Starting Itemization
+customer_two_total = stylish_settee_price  # Love Seat Price
+customer_two_itemization = stylish_settee_description  # Love Seat Item
+customer_two_total += luxurious_lamp_price  # Luxurious Lamp Price
+customer_two_itemization += " " + luxurious_lamp_description  # Luxurious Lamp Item
+customer_two_tax = customer_two_total * sales_tax  # Total Tax Calculation
+customer_two_total += customer_two_tax  # Ending Purchase
 # Second Customer Receipt
 print("Customer Two Items:")
 print(customer_two_itemization)
