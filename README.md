@@ -1,3 +1,3 @@
-# PythonProjects
+# Python Scripts
 
-Just some projects from class.
+Just some ideas.
